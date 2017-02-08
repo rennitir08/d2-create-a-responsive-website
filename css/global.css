@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+.header img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    box-shadow: 1px 1px 1px #888888;
+}
+body {
+  padding: 30px;
+  display: flex;
+}
+.container {
+  margin: 0 auto;
+}
+.column {
+    flex: 1;
+    padding: 4px;
+    margin-right: 20px;
+}
+.column ul {
+        list-style-type: none;
+}
+
+.header {
+    background-color: blue;
+    height: 37vw;
+   
+}
+button {
+        background-color: blue;
+        padding: 10px 10px 10px 10px;
+        color: white;
+        border-color:white;
+    }
+.choose {
+   text-align: center;
+}
+.choose span {
+    padding-left: 30px;
+}
+.column h5 {
+    color: white;
+    text-align: center;
+}
+.icons {
+   display: flex;
+   color: white;
+}
+.icons left {
+    flex: 1;
+    text-align: left;
+}
+.icons right {
+    flex: 1;
+    text-align: right;
+}
+.kitchener {
+  text-align: left;
+  color: white;
+}
+h2 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ .header span {
+            opacity: 0.4;
+}
+.row {
+ flex:1;
+}
+
+@media all and (min-width: 767px) {
+    .row {
+        flex-direction: row;
+    }
+}
+h4 span{
+    color: blue;
+    padding-left: 30px;
+}
+.column h6 {
+    color: blue;
+}
+.column > li > fa {
+    color: blue;
+}
+
+@media screen and (min-width: 767px) {
+    .row {
+
+
+
+
+
+
+        
+        flex-direction:row;
+    }
+}
+

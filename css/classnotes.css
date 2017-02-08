@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    background position: 50% 50%;
+}
+header{
+display: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+} 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+.column {
+    flex: 1;
+}
+.field {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.field label {
+    display: block;
+    font-weight: bold;
+}
+.field input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+}
+/*tablet*/
+@media all and (min-width:767px){
+    .row {
+        flex-direction: row;
+    }
+}
+/*tablet*/
+@media all and (min-width: 767px) {
+    header {
+        height: 10vw;
+    }
+    header{
+    display: block;
+    background: url(https://unsplash.it/600?random);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vw;
+}
+}

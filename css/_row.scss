@@ -1,0 +1,12 @@
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 767px) {
+    .row {
+        flex-direction: row;
+    }
+}
+}

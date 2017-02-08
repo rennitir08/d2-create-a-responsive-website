@@ -1,0 +1,22 @@
+// Variables
+$colorBlue: blue;
+$colorWhite: white;
+
+
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+  padding: 30px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "column";
+@import "row";
